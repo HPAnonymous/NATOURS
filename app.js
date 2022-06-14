@@ -1,9 +1,8 @@
 const express = require('express');
-const res = require('express/lib/response');
-const { json } = require('express/lib/response');
 const morgan = require('morgan');
 const tourRouter = require('./routes/tourRoutes');
 const userRouter = require('./routes/userRoutes');
+
 const app = express();
 
 if (process.env.NODE_ENV === 'development') {
