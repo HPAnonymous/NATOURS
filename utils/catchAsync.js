@@ -1,5 +1,5 @@
 // eslint-disable-next-line arrow-body-style
-module.exports =  (fn) => {
+module.exports = (fn) => {
   // function express gonna call
   return (req, res, next) => {
     // called automatically with params this callback receives , function
