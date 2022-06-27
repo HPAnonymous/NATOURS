@@ -14,13 +14,5 @@ exports.getAllUsers = (req, res) => {
 };
 
 exports.createUser = (req, res) => {};
-exports.getUser = (req, res) => {
-  const id = req.params.id;
-  const user = users.find((el) => el.id === id);
-  res.status(200).json({
-    status: 'success',
-    data: {
-      user,
-    },
-  });
-};
+
+exports.getUser = (req, res) => {};
